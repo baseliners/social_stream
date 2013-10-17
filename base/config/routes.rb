@@ -90,7 +90,7 @@ Rails.application.routes.draw do
 
   resources :conversations
 
-  resources :invitations
+  #resources :invitations
   
   resources :notifications do
     collection do
